@@ -5,3 +5,6 @@ PasswordGenerator is a random password generator. Users have the option of choos
 
 ##Image of site:
 ![image](https://user-images.githubusercontent.com/68489432/92479839-1068d580-f1b2-11ea-89ec-8a336ea18ed5.png)
+
+##Link to site
+https://samanthafoster17.github.io/PasswordGenerator/
