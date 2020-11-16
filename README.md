@@ -1,6 +1,5 @@
 # PasswordGenerator
 
-# PasswordGenerator
    
 ![License](https://img.shields.io/badge/License-None-blue.svg "License Badge")
 
