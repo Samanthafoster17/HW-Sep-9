@@ -11,7 +11,7 @@ var userOptions = lowercase + uppercase + symbols + numbers;
 // generate password function
 function generatePassword() {
   var password = "";
-  var passwordLength = prompt("choose a password between 8-128 characters");
+  var passwordLength = prompt("How long would you like your password? \n Please enter a number between 8-128");
 
   var isUpper = false;
   var isLower = false;
@@ -20,10 +20,10 @@ function generatePassword() {
 
   if (passwordLength >= 8 && passwordLength <= 128) {
 
-    isUpper = confirm("do you want your password to contain upper case letters?");
-    isLower = confirm("do you want your password to contain lower case letters?");
-    isNumbers = confirm("do you want your password to contain numbers?");
-    isSymbols = confirm("do you want your password to contain symbols?");
+    isUpper = confirm("Do you want your password to contain upper case letters? \n Click Ok for Yes \n Click Cancel for No");
+    isLower = confirm("Do you want your password to contain lower case letters? \n Click Ok for Yes \n Click Cancel for No");
+    isNumbers = confirm("Do you want your password to contain numbers? \n Click Ok for Yes \n Click Cancel for No");
+    isSymbols = confirm("Do you want your password to contain symbols? \n Click Ok for Yes \n Click Cancel for No");
 
     if (isUpper) {
       password = password + uppercase[Math.floor(Math.random() * uppercase.length)];
